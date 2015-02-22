@@ -1,43 +1,74 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# External junk
 .DS_Store
-.AppleDouble
-.LSOverride
+_ReSharper*
+*.opensdf
+*.sdf
+*.dir
+*.vcxproj*
+*.sln
+Win32
+Debug
+Release
 
-# Thumbnails
-._*
+# CMake files
+Makefile
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+cmake_uninstall.cmake
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+# Generated files
+docs/Doxyfile
+docs/html
+docs/warnings.txt
+src/glfw_config.h
+src/glfw3.pc
+src/glfw3Config.cmake
+src/glfw3ConfigVersion.cmake
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Compiled binaries
+src/libglfw.so
+src/libglfw.so.3
+src/libglfw.so.3.0
+src/libglfw.dylib
+src/libglfw.dylib
+src/libglfw.3.dylib
+src/libglfw.3.0.dylib
+src/libglfw3.a
+src/glfw3.lib
+src/glfw3.dll
+src/glfw3dll.lib
+src/glfw3dll.a
+examples/*.app
+examples/*.exe
+examples/boing
+examples/gears
+examples/heightmap
+examples/particles
+examples/splitview
+examples/simple
+examples/wave
+tests/*.app
+tests/*.exe
+tests/accuracy
+tests/clipboard
+tests/cursor
+tests/cursoranim
+tests/defaults
+tests/empty
+tests/events
+tests/fsaa
+tests/gamma
+tests/glfwinfo
+tests/iconify
+tests/joysticks
+tests/modes
+tests/peter
+tests/reopen
+tests/sharing
+tests/tearing
+tests/threads
+tests/title
+tests/version
+tests/windows
+
